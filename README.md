@@ -16,7 +16,7 @@ x > 11 	        => 3
 I used classification to grade nail images.
 
 | Model number | Backbone | Image size | Optimizer | Learning rate | Criterion | Vadlidation accuracy |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 1 | EffcientNet-b7 | 512x386 | Adam | CEL | 0.001 | 0.89 |
 | 2 | EffcientNet-b7 |512x386 | Ranger | CEL | 0.001 | 0.87 |
 | 3 | EffcientNet-b7 |512x386 | SGD | CEL | 0.001 | 0.83 |
@@ -26,7 +26,7 @@ I used classification to grade nail images.
 
 
 | Model number | Backbone | Image size | Optimizer | Learning rate | Criterion | Vadlidation accuracy |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 1 | EffcientNet-b2 | 512x386 | Adam | 0.001 | MSE | 0.90 |
 | 2 | EffcientNet-b7 |512x386 | Adam | MSE | 0.001 | 0.92 |
 | 3 | EffcientNet-b7 |512x386 | Ranger | MSE | 0.001 | 0.91 |
